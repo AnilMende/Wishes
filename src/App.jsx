@@ -14,23 +14,23 @@ const App = () => {
     setShowGreeting(true);
 
     confetti({
-      particleCount : 200,
-      spread : 90,
-      origin : {y : 0.6 }
+      particleCount: 200,
+      spread: 90,
+      origin: { y: 0.6 }
     });
 
     setTimeout(() => {
-      
+
       confetti({
-        particleCount : 150,
-        spread : 120,
-        origin : {x : 0.2 }
+        particleCount: 150,
+        spread: 120,
+        origin: { x: 0.2 }
       });
 
       confetti({
-        particleCount : 150,
-        spread : 120,
-        origin : { x : 0.8}
+        particleCount: 150,
+        spread: 120,
+        origin: { x: 0.8 }
       })
 
     }, 500)
@@ -62,7 +62,8 @@ const App = () => {
               🎉 Happy New Year {name}  <br /> 2026 ✨
             </h1>
             <p className="subtext">
-              Forget what happened last year. May this new year bring you everything you’re hoping for.
+              You know, a year is gone, and whatever happened is in the past. Maybe you made some mistakes, and maybe things didn’t go as planned but you learned from them, and sometimes that’s more important than getting everything right.
+              Let’s carry the lessons forward and leave the regrets behind. Wishing you a better, stronger, and happier year ahead.😀
             </p>
           </div>
         )
